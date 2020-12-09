@@ -1,0 +1,32 @@
+#cnx, #insc{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+
+.vertical-line{
+    border-left: 1px solid gray;
+    padding-left: 35px;
+  }
+
+
+.btn{
+    background-color: rgb(31, 28, 28);
+    width: 100%;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#forgotPWD{
+    text-align: center;
+    color: gray;
+}
+
+#Block_connexion{
+    padding-right: 35px;
+}
