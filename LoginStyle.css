@@ -5,7 +5,7 @@
 
 
 .vertical-line{
-    border-left: 1px solid gray;
+    border-left: 1px solid rgb(199, 187, 187);
     padding-left: 35px;
   }
 
@@ -24,9 +24,10 @@
 
 #forgotPWD{
     text-align: center;
-    color: gray;
+    color: rgb(165, 156, 156);
 }
 
 #Block_connexion{
     padding-right: 35px;
 }
+
