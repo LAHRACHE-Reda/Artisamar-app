@@ -3,6 +3,10 @@
     font-family: 'Crimson Text', serif;
 }
 
+.Login_Row{
+    padding-top: 180px;
+}
+
 
 .vertical-line{
     border-left: 1px solid rgb(199, 187, 187);
