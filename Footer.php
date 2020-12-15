@@ -5,8 +5,8 @@
             <div class="content">
                 <p> ARTISAMAR est une boutique en ligne présentant des produit artisanaux marocains. Elle créé dans le cadre d'un projet scolaire par quatre élèves ingénieurs, dont le but d'appliquer et de tester les connaissances developpement web</p>
                 <div class="social">
-                    <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f"></span></a>
-                    <a href="https://instagram.com/coding.np"><span class="fab fa-instagram"></span></a>
+                    <a href="#facebook"><span class="fab fa-facebook-f" style="color: white;"></span></a>
+                    <a href="#Instagram"><span class="fab fa-instagram" style="color: white;"></span></a>
                     
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="msg">
                         <div class="text">Message *</div>
-                        <textarea  id=".msgForm" rows="2" cols="50" style="background-color:#242323" required></textarea>
+                        <textarea  id=".msgForm" rows="2" cols="50" style="background-color:#242323; color:white" required></textarea>
                         
                     </div>
                     <div class="btn">

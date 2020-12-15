@@ -10,7 +10,7 @@
  <!--Barre2 de navigation-->
  <nav class="menu-nav">
     <div class="wrapper">
-      <div class="logo"><a href="#home"><img src="logo.png" alt="" width="200px"></a></div>
+      <div class="logo"><a href="Home.php"><img src="logo.png" alt="" width="200px"></a></div>
       <input type="radio" name="slider" id="menu-btn">
       <input type="radio" name="slider" id="close-btn">
       <ul class="nav-links">
@@ -126,7 +126,7 @@
       </div>
       </form>
       <ul class="flex-container user-tools">
-        <li class="nav-links"><a href="#" style="color: white;"><i class="far fa-user"></i></a></li>
+        <li class="nav-links"><a href="login.php" style="color: white;"><i class="far fa-user"></i></a></li>
         <li class="nav-links"><a href="#" style="color: white;"><i class="fas fa-shopping-cart"></i></a></li>
         <li class="nav-links"><a href="#" style="color: white;"><i class="far fa-heart"></i></a></li>
       </ul>

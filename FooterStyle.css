@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  color: #d9d9d9;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+
 .content1{
   position: relative;
   margin: 130px auto;
@@ -23,7 +17,11 @@
   color: #202020;
 }
 footer{
-
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
   bottom: 0px;
   width: 100%;
   background: #111;
@@ -119,12 +117,10 @@ footer{
   padding-left: 10px;
   border: 1px solid #222222;
 }
-.right form input:focus,
-.right form .msgForm:focus{
-  outline-color: #3498db;
-}
+
 .right form input{
   height: 35px;
+  color: white;
 }
 .right form .btn{
   margin-top: 10px;
@@ -142,6 +138,7 @@ footer{
 }
 .right form .btn button:hover{
   background: #000;
+  color: #d0990a;
 }
 .bottom center{
   padding: 5px;
@@ -170,5 +167,16 @@ footer{
   .main-content .box{
     margin: 5px 0;
   }
+}
+
+.btn{
+  background-color: rgb(31, 28, 28);
+  width: 100%;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.btn:hover{
+  background-color: black;
 }
 
