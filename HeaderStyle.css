@@ -46,7 +46,6 @@
 }
 nav .wrapper{
   position: relative;
-  max-width: 1300px;
   padding: 0px 30px;
   height: 70px;
   line-height: 70px;
@@ -72,8 +71,8 @@ nav .wrapper{
   color: #f2f2f2;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 500;
-  padding: 9px 15px;
+  font-weight: 300;
+  padding: 9px 10px;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
@@ -312,10 +311,16 @@ nav input{
   background-color: rgb(194, 194, 191);
 }
 
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+
 .search-btn{
   color: #fff;
   float: right;
-  width: 40px;
+  width: 18px;
   height: 20px;
   border-radius: 50%;
   display: flex;
@@ -337,9 +342,37 @@ nav input{
   font-size: 16px;
   transition: 0.4s;
   line-height: 40px;
+  width: 0;
   height: 20px;
 }
 
+.search-txt:focus{
+  width: 240px;
+  padding: 0 6px;
+}
+
+button.search-btn{
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.search-box button:active{
+  box-shadow: 4px 4px 4px rgba(143, 139, 139, 0.822);
+}
+
 .user-tools{
-  display: flex;
+  justify-content: flex-end;
+  margin-left: 15px;
+}
+
+.user-tools li{
+  justify-content: space-between;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+.search{
+  margin-left: 30px;
 }
