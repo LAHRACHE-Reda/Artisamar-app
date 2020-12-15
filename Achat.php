@@ -13,7 +13,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 	<!-- add style -->
-	<link rel="stylesheet" type="text/css" href="comStyle.css"> </head>
+	<link rel="AchatStyle.css" type="text/css" href="comStyle.css"> </head>
     <link href="HeaderStyle.css" type="text/css" rel="stylesheet">
 <body>
   <!--Header-->
