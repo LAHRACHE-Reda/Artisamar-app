@@ -8,6 +8,7 @@
     <!-- Style CSS -->
     <link href="LoginStyle.css" type="text/css" rel="stylesheet">
     <link href="HeaderStyle.css" type="text/css" rel="stylesheet">
+    <link href="FooterStyle.css" type="text/css" rel="stylesheet">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
@@ -55,5 +56,8 @@
             </div>
     	</div>
     </div>
+</br></br></br>
+    <!--Footer-->
+  <?php include "Footer.php" ?>
 </body>
 </html>
