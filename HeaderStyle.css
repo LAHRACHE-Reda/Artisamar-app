@@ -9,13 +9,14 @@
 
 .navbar{
     background-color: rgb(0, 0, 0);
-    box-shadow: 1px 12px 15px 1px rgba(39, 35, 36, 0.2);
+    
 }
 
 .Header{
     position: fixed;
     z-index: 99;
     width: 100%;
+    box-shadow: 1px 12px 15px 1px rgba(39, 35, 36, 0.2);
 }
 
 .min-navbar{

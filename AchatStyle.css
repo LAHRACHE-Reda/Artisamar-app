@@ -1,16 +1,28 @@
-body{
+.commande_form{
+  width: 100%;
+}
+  .title_commande{
+    text-align: center;
+  }
+
+  .Achat{
+    margin-top: 180px;
     font-family: 'Crimson Text', serif;
     font-size: 17px;
     padding: 13px;
-    background-color: lightgray;
+    margin-left: 20px;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 18px 13px 18px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    box-shadow: 1px 12px 15px 1px rgba(39, 35, 36, 0.2);
   }
-  h3{
-    text-align: center;
-  }
+  
   *{
     box-sizing: border-box;
   }
-  .row{
+  .commande{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -32,13 +44,8 @@ body{
   .col-30,.col-50,.col-70{
     padding: 0 16px;
   }
-  .container{
-    background-color: rgb(255, 255, 255);
-    padding: 3px 18px 13px 18px;
-    border: 1px solid lightgray;
-    border-radius: 3px;
-  }
-  input[type=text]{
+
+ .formulaire-txt{
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
@@ -77,4 +84,7 @@ body{
     color: gray;
   }
   
+  .link-product{
+    color: black;
+  }
   

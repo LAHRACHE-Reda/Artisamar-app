@@ -7,6 +7,15 @@
     </ul>
 </nav>
 
+<script type="text/javascript">
+  var myvar=setInterval(function () {myTimer()}, 1000);
+
+  function myTimer(){
+      var d = new Date();
+      document.getElementById("date").innerHTML = d.toLocaleTimeString();
+  }
+</script>
+
  <!--Barre2 de navigation-->
  <nav class="menu-nav">
     <div class="wrapper">
@@ -129,7 +138,7 @@
         <li class="nav-links"><a href="login.php" style="color: white;"><i class="far fa-user"></i></a></li>
         <li class="nav-links"><a href="#" style="color: white;"><i class="fas fa-shopping-cart"></i></a></li>
         <li class="nav-links"><a href="#" style="color: white;"><i class="far fa-heart"></i></a></li>
-      </ul>
+      </ul>/
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
     </div>
   </nav>
